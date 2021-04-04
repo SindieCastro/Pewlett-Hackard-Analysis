@@ -7,7 +7,7 @@ SELECT es.emp_no,
 		ti.title, 
 		ti.from_date,
 		ti.to_date
-INTO retirement_titles
+--INTO retirement_titles
 FROM employees as es
 INNER JOIN titles as ti
 ON (es.emp_no = ti.emp_no)
@@ -18,9 +18,9 @@ ORDER BY (es.emp_no = ti.emp_no);
 SELECT rt.emp_no,
 		rt.first_name,
 		rt.last_name,
-		rt.title 
+		rt.title, 
 		rt.to_date
-INTO recent_titles
+--INTO recent_titles
 FROM retirement_titles AS rt;
 
 --Step 8-14 use Dictinct with Orderby to create unique_titles table
@@ -28,13 +28,13 @@ SELECT DISTINCT ON (ret.emp_no) ret.emp_no,
 ret.first_name,
 ret.last_name,
 ret.title 
-INTO unique_titles
+--INTO unique_titles
 FROM recent_titles AS ret
 ORDER BY ret.emp_no ASC, ret.to_date DESC;
 
 --Steps 15-21 create retiring_titles
 SELECT COUNT(ut.title), ut.title
-INTO retiring_titles
+--INTO retiring_titles
 FROM unique_titles as ut
 Group By ut.title
 ORDER By count DESC;
@@ -48,7 +48,7 @@ e.birth_date,
 de.from_date,
 de.to_date,
 ti.title
-INTO mentorship_eligibility
+--INTO mentorship_eligibility
 FROM employees AS e
 INNER JOIN dept_emp AS de
 ON (e.emp_no = de.emp_no)
