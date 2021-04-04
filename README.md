@@ -17,7 +17,7 @@ The SQL queries show two results for retiring employees:
 - There are 90,398 individuals eligible for retiring (See Table One).
 - There are 7 retiring titles (See Table One).
 
-**Table One**
+**Table One: Retiring Titles**
 
 Retiring Titles | Number of Individuals
 ------------ | -------------
@@ -34,7 +34,7 @@ The SQL queries show two results for the mentorship program:
 - There are 1,549 employees eligible for the mentorship program (See Table Two).
 - There are 6 mentorship titles(See Table Two).
 
-**Table Two**
+**Table Two: Mentorship Titles**
 
 Mentorship Titles | Number of Individuals
 ------------ | -------------
@@ -52,7 +52,7 @@ There will be a total of 90,398 roles that will need to be filled; however, as t
 
 Additionally, Query Two was ran to see the title count for the individuals who qualify for the mentorship program that will help fill the roles. The query did not output individuals for Manager titles. It is recommended that Pewlett Hackard begin their focus in the mentorship program to fill the 1 Manager title that will be available the first year the "silver tsunami" begins to make an impact. 
 
-**Table Three**
+**Table Three: First Year Retiring Titles**
 First Year Retiring Titles | Number of Individuals
 ------------ | -------------
 Engineer  | 8,085
@@ -63,7 +63,7 @@ Assistant Engineer  | 1,069
 Technique Leader  | 10,62
 Manager  | 1
 
-**Query One. Eligible for First Year Retirement**
+**Query One: Eligible for First Year Retirement**
 
 ![First_retire](https://user-images.githubusercontent.com/78306719/113511942-f4e76280-9527-11eb-8467-bd42c11dd8da.PNG)
 
@@ -75,7 +75,7 @@ Manager  | 1
 
 There are more than enough retirement-ready employees to mentor the next generation for 6 job titles but not in the Manager's title as there are only 2 who are eligible for retirement as shown in Table One using Query 2. For this query, the unique count of the titles was captured to ensure there were unduplicated titles considering employees change positions within Pewlett Hackard; However, Query Four was ran within SQL to capture the unique titles for the individuals retiring.
 
-**Query Three. Unique Titles**
+**Query Three: Unique Titles**
 
 ![Unique_Titles](https://user-images.githubusercontent.com/78306719/113511963-11839a80-9528-11eb-9685-4f351fb28417.PNG)
 
