@@ -4,7 +4,7 @@
 
 ### Background
 
-Pewlett Hackard is looking to prepare for the future. THe company wants the number of positions to fill due to employee retirements and the number of employees who are eligible for a mentorship program. A database to analyze the data available through the company's human resources was built using PostgreSQL.  
+Pewlett Hackard is looking to prepare for the future. The company wants the number of positions to fill due to employee retirements and the number of employees who are eligible for a mentorship program. A database to analyze the data available through the company's human resources was built using PostgreSQL.  
 
 ### Purpose
 
@@ -53,6 +53,7 @@ There will be a total of 90,398 roles that will need to be filled; however, as t
 Additionally, Query Two was ran to see the title count for the individuals who qualify for the mentorship program that will help fill the roles. The query did not output individuals for Manager titles. It is recommended that Pewlett Hackard begin their focus in the mentorship program to fill the 1 Manager title that will be available the first year the "silver tsunami" begins to make an impact. 
 
 **Table Three: First Year Retiring Titles**
+
 First Year Retiring Titles | Number of Individuals
 ------------ | -------------
 Engineer  | 8,085
