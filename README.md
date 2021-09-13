@@ -4,11 +4,7 @@
 
 ### Background
 
-<<<<<<< HEAD
-Pewlett Hackard is looking to prepare for the future. The company wants the number of positions to fill due to employee retirements and the number of employees who are eligible for a mentorship program. A database to analyze the data available through the company's human resources was built using PostgreSQL.  
-=======
-Pewlett Hackard is looking to prepare for the future. The company wants the total count of positions they will need to fill due to employee retirements. The company also wants the employee count of the individuals who are eligible for a mentorship program to help fill the positions that will be empty. A database to analyze the data available through the company's human resources was built using PostgreSQL.  
->>>>>>> 6de0fab8c08fff34116e90bea0e2ec98958f615a
+Pewlett Hackard is looking to prepare for the future. The company wants the total count of positions they will need to fill due to employee retirements. The company also wants the employee count of the individuals who are eligible for a mentorship program to help fill the positions that will be empty. A database to analyze the data available through the company's human resources was built using PostgreSQL.
 
 ### Purpose
 
